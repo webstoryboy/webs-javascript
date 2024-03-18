@@ -1,0 +1,820 @@
+/* 넥슨고딕Lv1 */
+@font-face {
+    font-family: 'NexonLv1Gothic';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicLight.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexonLv1Gothic';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicRegular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicRegular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicRegular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicRegular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicRegular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexonLv1Gothic';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv1Gothic/NexonLv1GothicBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+/* 넥슨고딕Lv2 */
+@font-face {
+    font-family: 'NexonLv2Gothic';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicLight.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexonLv2Gothic';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicRegular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicRegular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicRegular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicRegular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicRegular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexonLv2Gothic';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicMedium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicMedium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicMedium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicMedium.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexonLv2Gothic';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/NexonLv2Gothic/NexonLv2GothicBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+/* 지마켓산스 */
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+/* 에스코어드림 */
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 100;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 200;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 600;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 900;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 300;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Light.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Light.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Light.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Light.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Light.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 400;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Regular.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Regular.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Regular.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Regular.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 700;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Bold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Bold.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Bold.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Bold.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 800;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-ExtraBold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-ExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-ExtraBold.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-ExtraBold.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-ExtraBold.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "nanumSquareNeo";
+    font-weight: 900;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Black.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Black.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Black.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Black.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/nanumSquareNeo/nanumSquareNeo-Black.ttf") format("truetype");
+    font-display: swap;
+}
+
+:root {
+    --mainBg: #EFEEEC;
+    --pointBg: #705df2;
+    --pointBg100: #5d4bd6;
+    --pointBg200: #4c3eaa;
+
+    --black: #000;
+    --black100: #111;
+    --black200: #444;
+    --black300: #666;
+    --black400: #bbb;
+    --black500: #eee;
+
+    --white: #fff;
+    --white100: #f1f1f1;
+    --white200: #e7e7e7;
+    --white300: #dddddd;
+    --white400: #d1d1d1;
+    --white500: #c7c7c7;
+
+    --fontN: "NanumSquareNeo";
+    --fontG: "GmarketSans";
+    --fontS: "SCoreDream";
+    --fontX: "NexonLv1Gothic";
+    --fontO: "Orbitron";
+
+    --searchImg: url(../../../public/svg/search.svg);
+
+    /* 기본 폰트 설정  */
+    font-family: var(--fontN);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    /* 아이폰 가로 모드에서 글씨 확대 금지 */
+    -webkit-text-size-adjust: 100%;
+
+    body {
+        background-color: var(--mainBg);
+    }
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+/* 공통 요소 */
+.container {
+    max-width: 1460px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.container__cont {
+    max-width: 1000px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.none {
+    display: none;
+}
+
+/* margin */
+.mt0 {
+    margin-top: 0;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.mt70 {
+    margin-top: 70px;
+}
+
+.mt80 {
+    margin-top: 80px;
+}
+
+.mt90 {
+    margin-top: 90px;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+/* 여백 초기화 */
+body,
+div,
+dl,
+dd,
+dt,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+p,
+table,
+th,
+td,
+input,
+figure,
+figcaption,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+/* box-sizing 초기화 */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* 폰트 초기화 */
+body,
+button,
+input,
+select,
+table,
+textarea {
+    font-family: var(--fontN), var(--fontG), 'AppleSDGothicNeo-Regular', 'Malgun Gothic', '맑은 고딕', 'dotum', '돋움';
+}
+
+/* 링크 초기화 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 목록 초기화  */
+li,
+ol,
+ul {
+    list-style: none;
+}
+
+/* 제목 초기화 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+/* 폰트 스타일 */
+em,
+address {
+    font-style: normal;
+}
+
+/* 이미지 초기화  */
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+/* 보더 초기화 */
+img,
+fieldset,
+button {
+    border: 0;
+}
+
+/* 버튼 초기화 */
+button {
+    overflow: visible;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+/* 디자인 초기화 */
+input,
+button,
+select {
+    border-radius: 0;
+    appearance: none;
+}
+
+/* 테이블 초기화  */
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/* 블라인드 효과 */
+.blind {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+/* skip */
+#skip {
+    position: relative;
+    z-index: 100000;
+}
+
+#skip a {
+    background: #000;
+    color: #fff;
+    position: absolute;
+    padding: 0.5rem 1rem;
+    left: -400px;
+    top: 5px;
+    font-size: 14px;
+}
+
+#skip a:active,
+#skip a:focus {
+    left: 5px;
+}
+
+/* header */
+#header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 5000;
+    background-color: var(--mainBg);
+}
+
+.header__inner {
+    border-bottom: 3px solid var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.header__inner::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: var(--black400);
+    position: absolute;
+    left: 0;
+    top: 27px;
+    z-index: -1;
+}
+
+.header__logo {
+    width: 200px;
+}
+
+.header__logo a {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--black);
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px var(--white300);
+    background-color: var(--mainBg);
+    background-position: center center;
+    background-image: url("data:image/svg+xml,%3csvg width='10' height='10' viewBox='0 0 10 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M5 0L6.12257 3.45492H9.75528L6.81636 5.59017L7.93893 9.04508L5 6.90983L2.06107 9.04508L3.18364 5.59017L0.244718 3.45492H3.87743L5 0Z' fill='black'/%3e%3c/svg%3e");
+    transition: transform 0.3s ease-in-out;
+}
+
+.header__logo a:hover {
+    transform: rotate(360deg);
+    box-shadow: 0 0 0 3px var(--white100);
+}
+
+.header__title a {
+    font-size: 1.25rem;
+    font-family: var(--fontG);
+    font-weight: 800;
+    padding: 5px;
+    display: block;
+    background-color: var(--mainBg);
+}
+
+.header__utils {
+    width: 200px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__utils .search {
+    width: 34px;
+    height: 34px;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0 0 0 3px var(--white200);
+    display: inline-block;
+    border-radius: 50%;
+    background-color: var(--mainBg);
+    background-image: url(../svg/search.svg);
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-color 0.3s;
+}
+
+.header__utils .search:hover {
+    background-color: var(--white300);
+}
+
+.header__menu {
+    position: absolute;
+    left: 50%;
+    top: 44px;
+    transform: translateX(-50%);
+}
+
+.header__menu ul {
+    display: flex;
+}
+
+.header__menu ul li a {
+    border: 1px solid var(--black);
+    background-color: var(--mainBg);
+    padding: 2px 5px;
+    margin: 2px;
+    font-size: 14px;
+}
+
+@media (max-width: 800px) {
+    .header__menu {
+        display: none;
+    }
+}
+
+/* main */
+#main {
+    margin-top: 59px;
+}
+
+@media (max-width: 800px) {
+    #main {
+        margin-top: 50px;
+    }
+}
+
+/* blog__title */
+.blog__title {
+    text-align: center;
+    padding: 9vmax 0;
+    border-bottom: 2px solid var(--black);
+    position: relative;
+    z-index: 10;
+    color: var(--white);
+    background-color: var(--white400);
+    background-image: url(https://images.unsplash.com/photo-1707343845208-a20c56d2c8ba?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center center;
+    background-size: cover;
+}
+
+.blog__title::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.blog__title .cate {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--fontG);
+    font-weight: 300;
+}
+
+.blog__title .title {
+    color: #fff;
+    font-weight: 300;
+    font-size: 34px;
+}
+
+.blog__title .info {
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+@media (max-width: 800px) {
+    .blog__title .cate {
+        font-size: 12px;
+    }
+
+    .blog__title .title {
+        font-size: 24px;
+    }
+}
+
+/* contents__title */
+.contents__title {
+    display: flex;
+    background-color: var(--pointBg);
+    color: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.contents__title .left {
+    flex: 6;
+}
+
+.contents__title .right {
+    flex: 3;
+    background-color: var(--pointBg100);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.contents__title .right::before {
+    content: '';
+    width: 34px;
+    height: 34px;
+    background-color: var(--pointBg200);
+    color: var(--pointBg);
+    position: absolute;
+    left: -12px;
+    top: -10px;
+    border-radius: 50%;
+    background-image: url(../svg/down.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contents__title .num {
+    font-family: var(--fontG);
+    font-size: 30px;
+}
+
+.contents__title .tit {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.contents__title .link {
+    background-color: var(--white);
+    color: var(--pointBg);
+    padding: 0.3rem 1rem;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 3px;
+    font-size: 14px;
+}
+
+.contents__main {
+    margin-top: 100px;
+
+    h4,
+    .title {
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .contents__title {
+        flex-direction: column;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+
+    .contents__title .tit {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    .contents__title .right {
+        padding: 10px;
+    }
+
+    .contents__title .num {
+        font-size: 24px;
+    }
+}
+
+#footer {
+    height: 400px;
+}
