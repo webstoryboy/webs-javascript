@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트 기초 마스터 하기 😳 : 데이터 저장하기</title>
+
+    <meta name="acthor" content="웹스토리보이">
+    <meta name="description" content="자바스크립트 기초 마스터 하기 강의입니다.">
+    <meta name="keywords" content="자바스크립트, javascript, 웹스토리보이, webstoryboy">
+    <meta name="robots" content="all">
+
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+</head>
+
+<body>
+    <div id="skip">
+        <a href="#header">헤더 영역 바로가기</a>
+        <a href="#main">컨텐츠 영역 바로가기</a>
+        <a href="#footer">푸터 영역 바로가기</a>
+    </div>
+    <!-- //skip -->
+
+    <header id="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a href="index.html"><span class="blind">메인으로</span></a>
+            </div>
+            <h1 class="header__title">
+                <a href="index.html">WEBSTORYBOY</a>
+            </h1>
+            <div class="header__utils">
+                <a href="#" class="search"><span class="blind">검색</span></a>
+            </div>
+            <nav class="header__menu">
+                <ul>
+                    <li><a href="#"><span>레퍼런스</span></a></li>
+                    <li><a href="#"><span>튜토리얼</span></a></li>
+                    <li><a href="#"><span>게시판</span></a></li>
+                    <li><a href="#"><span>블로그</span></a></li>
+                </ul>
+            </nav>
+            <div class="progress-bar"></div>
+        </div>
+    </header>
+    <!-- //header -->
+
+    <main id="main">
+        <section class="blog__inner">
+            <div class="blog__title">
+                <span class="cate">Tutorial/JavaScript</span>
+                <h2 class="title">자바스크립트 배우기</h2>
+                <div class="info">
+                    <span class="author">by @webs</span>
+                    <span class="date">2023. 08. 01.</span>
+                </div>
+            </div>
+            <div class="blog__contents container__cont">
+                <div class="contents__title">
+                    <div class="left">
+                        <span class="num">01.</span>
+                        <h3 class="tit">자바스크립트 테스트</h3>
+                    </div>
+                    <div class="right">
+                        <a href="/" target="_blank" class="link">완성 화면</a>
+                        <a href="/" target="_blank" class="link">코드 보기</a>
+                    </div>
+                </div>
+                <div class="contents__main">
+
+                    <article id="sample01">
+                        <p>
+                            01. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        let x = 100;            
+        let y = 200;            
+        let z = "javascript";   
+
+        console.log(x);     
+        console.log(y);     
+        console.log(z);     
+}   
+</code></pre>
+                    </article>
+
+                    <article id="sample02">
+                        <p>
+                            02. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        let x = 100;           
+        let y = 200;            
+        let z = "javascript";   
+
+        x -= 300;        
+        y += 400;       
+        z = "jquery";   
+
+        console.log(x);   
+        console.log(y);   
+        console.log(z);  
+}   
+</code></pre>
+                    </article>
+
+                    <article id="sample03">
+                        <p>
+                            03. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const arr = new Array();
+
+        arr[0] = 100;
+        arr[1] = 200;
+        arr[2] = "javascript";
+
+        console.log(arr);
+        console.log(arr[0]);
+        console.log(arr[1]);
+        console.log(arr[2]);
+}</code></pre>
+                    </article>
+
+                    <article id="sample04">
+                        <p>
+                            04. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const arr = new Array(100, 200, "javascript");
+
+        console.log(arr);
+        console.log(arr[0]);
+        console.log(arr[1]);
+        console.log(arr[2]);
+}</code></pre>
+                    </article>
+
+                    <article id="sample05">
+                        <p>
+                            05. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const arr = [100, 200, "javascript"];
+
+        console.log(arr);
+        console.log(arr[0]);
+        console.log(arr[1]);
+        console.log(arr[2]);
+}</code></pre>
+                    </article>
+
+                    <article id="sample06">
+                        <p>
+                            06. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const obj = [100, [200, 300, 500], [400, [300, 400]]];
+
+        console.log(obj[0]);
+        console.log(obj[0][1]);
+        console.log(obj[1][2]);
+        console.log(obj[2][0]);
+        console.log(obj[2][1]);
+        console.log(obj[2][1][1]);
+}</code></pre>
+                    </article>
+
+                    <article id="sample07">
+                        <p>
+                            07. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const arr = [100, 200, "javascript"];
+
+        const [a, b, c] = arr;
+
+        console.log(a);
+        console.log(b);
+        console.log(c);
+}</code></pre>
+                    </article>
+
+                    <article id="sample08">
+                        <p>
+                            08. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const arr = [100, 200, [300, 400, 500]];
+
+        const [a, b, [x, y, z]] = arr;
+
+        console.log(a);
+        console.log(b);
+        console.log(x);
+        console.log(y);
+        console.log(z);
+}</code></pre>
+                    </article>
+
+                    <article id="sample09">
+                        <p>
+                            09. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const arr1 = [100, 200, "javascript"];
+        const arr2 = [300, 400, "jquery"];
+
+        console.log(arr1);              
+        console.log(...arr1);           
+        console.log(...arr1, ...arr2);  
+}</code></pre>
+                    </article>
+
+                    <article id="sample10">
+                        <p>
+                            10. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const numbers = [1, 2, 3, 4, 5];
+
+        console.log(...numbers); 
+        
+        const copiedNumbers = [...numbers];
+    
+        console.log(copiedNumbers);
+}</code></pre>
+                    </article>
+
+                    <article id="sample11">
+                        <p>
+                            11. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const obj = new Object();
+
+        obj[0] = 100;
+        obj[1] = 200;
+        obj[2] = "javascript";
+
+        console.log(obj[0]);
+        console.log(obj[1]);
+        console.log(obj[2]);
+}</code></pre>
+                    </article>
+
+                    <article id="sample12">
+                        <p>
+                            12. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const obj = {};
+
+        obj.a = 100;
+        obj.b = 200; 
+        obj.c = "javascript"; 
+
+        console.log(obj.a);
+        console.log(obj.b);
+        console.log(obj.c);
+}</code></pre>
+                    </article>
+
+                    <article id="sample13">
+                        <p>
+                            13. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const obj = { 
+            a: 100, 
+            b: 200, 
+            c: "javascript",
+        };
+
+        console.log(obj.a);
+        console.log(obj.b);
+        console.log(obj.c);
+}</code></pre>
+                    </article>
+
+                    <article id="sample14">
+                        <p>
+                            14. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const obj = [
+                { a: 100, b: 200, c: "javascript" }
+        ];
+
+        console.log(obj[0].a);
+        console.log(obj[0].b);
+        console.log(obj[0].c);
+}</code></pre>
+                    </article>
+
+                    <article id="sample15">
+                        <p>
+                            15. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const obj1 = [
+                { a: 100, b: 200, c: "javascript" },
+                { a: 300, b: 400, c: "jquery" },
+        ];
+
+        console.log(obj1[0].a);
+        console.log(obj1[0].b);
+        console.log(obj1[0].c);
+        console.log(obj1[1].a);
+        console.log(obj1[1].b);
+        console.log(obj1[1].c);
+}</code></pre>
+                    </article>
+
+                    <article id="sample16">
+                        <p>
+                            16. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const obj = {
+                a: 100,
+                b: [200, 300],
+                d: "javascript"
+        }
+
+        console.log(obj.a);     
+        console.log(obj.b[0]);   
+        console.log(obj.b[1]);   
+        console.log(obj.d);   
+}</code></pre>
+                    </article>
+
+                    <article id="sample17">
+                        <p>
+                            17. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const obj = {
+                a: 100,
+                b: {x: 200, y: 300},
+                c: [400, 500, {x: 600, y: 700}],
+                d: "javascript",
+                e: {x: "jquery"}
+        }
+        console.log(obj.b[0])
+        console.log(obj.c[0])
+        console.log(obj.c[2].x)
+        console.log(obj.c[2].y)
+        console.log(obj.e.x) 
+}</code></pre>
+                    </article>
+
+                    <article id="sample18">
+                        <p>
+                            18. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const obj = {
+                a: 100,
+                b: [200, 300],
+                c: "javascript",
+                d: function(){
+                        console.log("javascript가 실행되었습니다.");
+                },
+                e: function(){
+                        console.log(obj.a + "가 실행되었습니다.");
+                },
+                f: function(){
+                        console.log(this.c + "가 실행되었습니다.");
+                }
+        }
+
+        console.log(obj.a);
+        console.log(obj.b[0]);
+        console.log(obj.b[1]);
+        console.log(obj.c);
+        console.log(obj.d);
+        obj.d();
+        obj.e();
+        obj.f();     
+}</code></pre>
+                    </article>
+
+                    <article id="sample19">
+                        <p>
+                            19. 다음을 보고 결괏값을 작성하시오!
+                        </p>
+                        <pre><code class="language-js">{
+        const obj = {
+                a: 100,
+                b: {x: 200, y: 300},
+                d: "javascript"
+        }
+
+        const { a, b: {x, y}, d } = obj; 
+
+        console.log(a);
+        console.log(x);
+        console.log(y);
+        console.log(d);
+}</code></pre>
+                    </article>
+
+                    <article id="sample20">
+                        <p>
+                            20. 변수, 상수, 배열, 객체, 함수의 개념을 작성하시오.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- //main -->
+
+    <footer id="footer">
+
+    </footer>
+    <!-- //footer -->
+
+
+    <script src="assets/js/lenis.min.js"></script>
+    <script src="assets/js/highlight.min.js"></script>
+    <script type="module" src="assets/js/main.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
